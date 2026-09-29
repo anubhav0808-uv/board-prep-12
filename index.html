@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Board Prep 12 — CBSE PCM Practice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="logo" onclick="go('home')"><span class="logo-ico">📘</span> Board Prep <b>12</b></div>
+  <nav>
+    <button class="navbtn" data-view="home" onclick="go('home')">Home</button>
+    <button class="navbtn" data-view="practice" onclick="go('practice')">Practice</button>
+    <button class="navbtn" data-view="test" onclick="go('test')">Test Generator</button>
+    <button class="navbtn" data-view="intel" onclick="go('intel')">Exam Intel</button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <p>Built for CBSE Class 12 Board Exams (2026–27 syllabus) · Physics · Chemistry · Maths</p>
+  <p class="fine">Questions curated from analysis of previous CBSE board papers, sample papers & question banks. Frequency flags are indicators from past-paper analysis — treat them as guidance, not guarantees. Always cross-check with the official CBSE syllabus and NCERT textbook.</p>
+</footer>
+
+<script src="data/physics.js"></script>
+<script src="data/chemistry.js"></script>
+<script src="data/maths.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
